@@ -1,0 +1,22 @@
+.App{
+  border: 2px solid #a8b2c6;
+  padding: 1em;
+  background-color: #ffffff;
+  position: relative;
+  width: 30%;
+  margin: 2em auto;
+  border-radius: 1em;
+  min-width: 350px;
+}
+h1{
+  text-align: center;
+  margin: 0 0 .5em 0;
+  color:#444b54;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+body{
+  background:  linear-gradient(rgba(214,199,234,.6), rgba(214,199,234,.6)),url('./images/background.gif') repeat;
+}

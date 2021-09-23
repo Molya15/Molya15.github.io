@@ -1,0 +1,32 @@
+.add{
+    position: relative;
+    width: 88%;
+    padding: .5em 1em;
+    transition: .3s;
+    color: #444b54;
+    padding-top: 0;
+}
+.add:hover{
+    transform: scale(1.05);
+    letter-spacing: 1px;
+}
+.add div {
+    width: 100%;
+    padding: .5em 0;
+    border-radius: .8em;
+    background-color: #6fcddd2a;
+    height: 2em;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.add img{
+    height: 2em;
+    margin-right: .4em;
+}
+.add div input{
+    margin-left: .8em;
+    border: none;
+    border-radius: 4px;
+    width: 74%;
+}

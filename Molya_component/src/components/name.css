@@ -1,0 +1,12 @@
+.name {
+   background-color: rgba(200, 200, 200, 0.3);
+   padding: 0.5em 1em;
+   border-radius: 1em;
+   transition-property: transform, background;
+   transition-duration: 0.2s;
+   text-align: center;
+}
+.name:hover {
+   transform: scale(1.03);
+   background-color: rgba(200, 200, 200, 0.5);
+}

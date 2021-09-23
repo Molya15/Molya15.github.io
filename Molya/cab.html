@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Личный кабинет</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body style="background:#fff;">
+    <div id="main">
+      <h2>Личный кабинет</h2>
+      <div id="content">
+        <div>
+          <form>
+            <input type="file" id="inphoto"><br>
+            <img src="male.jpg" id="photo"><br>
+            <button type="button" name="button" id="btnphoto">Изменить фото</button>
+          </form>
+        </div>
+        <form>
+          <table>
+            <tr>
+              <td>Имя</td>
+              <td><input type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+              <td>Фамилия</td>
+              <td><input type="text" name="surname" id="surname"></td>
+            </tr>
+            <tr>
+              <td>Пол</td>
+              <td>
+                <input type="radio" name="gender" class="gender" value="male">М
+                <input type="radio" name="gender" class="gender" value="female">Ж
+              </td>
+            </tr>
+            <tr>
+              <td>Дата рождения</td>
+              <td><input type="date" name="date" id="date"><br /></td>
+            </tr>
+            <tr>
+              <td>Телефон</td>
+              <td><input type="text" name="phone" id="phone"></td>
+            </tr>
+            <tr>
+              <td>Почта</td>
+              <td><input type="text" name="email" id="email"></td>
+            </tr>
+            <tr>
+              <td>Дата регистрации</td>
+              <td>26.02.2020</td>
+            </tr>
+          </table><br>
+          <button type="button" name="save" id="save"  disabled>Сохранить</button>
+          <button type="button" name="reset" id="reset">Сбросить</button>
+        </div>
+
+      </form>
+      <div id="scale">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="events.js"></script>
+  </body>
+</html>
